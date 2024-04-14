@@ -1,0 +1,106 @@
+/* инпуты на ввод пользователем */
+.inp {
+    height: 40px;
+    width: 300px;
+    text-align: center;
+
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+    font-size: 18px;
+}
+
+/* красный ввод при наведелении */
+.inp:hover{
+    border-color: red;
+}
+
+/* выбор типа устроств */
+.select {
+    height: 45px;
+    width: 310px;
+}
+
+/* блок в котором все лежит */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+
+    background-color: white;
+
+    width: 40%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* кнопки */
+.form {
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+
+    height: 60px;
+    width: 170px;
+    text-align: center;
+
+    font-size: 18px;
+
+    text-decoration: none;
+    color: black;
+
+    box-sizing: border-box;
+    padding-top: 3%;
+
+    margin: 10px;
+}
+
+/* для buttons дополнение */
+.b {
+    padding-top: 0;
+}
+
+/* чтобы было красным при наведении */
+.form:hover{
+    border: 2px solid red;
+    color: red;
+}
+
+/* блок содержащий нижние кнопки действий */
+.bth {
+    display: flex;
+}
+
+/* заголовок программы */
+.title {
+    display: flex;
+}
+
+/* колонки в меню */
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+/* обьединение колонок в меню */
+.par {
+    display: flex;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    background-image: url(/back.jpg);
+    font-family: Calibri, sans-serif;
+}
